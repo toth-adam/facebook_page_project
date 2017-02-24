@@ -1,1 +1,3 @@
 .idea
+image_generator/outputs/
+node_modules

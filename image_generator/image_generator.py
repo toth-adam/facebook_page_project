@@ -1,9 +1,12 @@
 from PIL import ImageFont, ImageDraw, Image
 
+
+# TODO: We can use 3 times bigger fonts and resize to have nicer (anti-aliased) texts
+# TODO: Or rewrite in matplotlib
 HEIGHTS = (250, 500)
 
-german_word = "der Jäger"
-hungarian_word = "vadász"
+german_word = "die Banane"
+hungarian_word = "banán"
 
 base = Image.open("images/bg.jpg").convert("RGBA")
 
